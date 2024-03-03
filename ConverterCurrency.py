@@ -11,5 +11,5 @@ class ConverterCurrency:
 
     @staticmethod
     def converter(fr, to, value):
-        money = value / data[str(fr)] * data[str(to)]
+        money = value / data[fr] * data[to]
         return money
